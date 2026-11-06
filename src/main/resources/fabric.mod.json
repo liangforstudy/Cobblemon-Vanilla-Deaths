@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "Wild Pokémon killed outside battle die like vanilla mobs: red flash, tip over, poof.",
+  "authors": ["yuliang"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "mixins": ["cobblemon_vanilla_death.mixins.json"],
+  "entrypoints": {
+    "main": ["dev.yuliang.cobblemonvanilladeath.CobblemonVanillaDeath"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17",
+    "minecraft": "${minecraft}",
+    "cobblemon": "${cobblemon}"
+  }
+}
